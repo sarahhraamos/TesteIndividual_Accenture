@@ -1,7 +1,6 @@
-# Teste individual Accenture
-</br>
+# Teste individual Accenture </br>
 ## Objetivo: <br>
-Criar um projeto em Selenium webdrive, com Java e Cucumber, usando Page objects.
+## Criar um projeto em Selenium webdrive, com Java e Cucumber, usando Page objects.
 <br>
 <br>
 
