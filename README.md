@@ -1,7 +1,7 @@
-# Objetivo do teste
+# Teste individual Accenture
 </br>
-
-## Criar um projeto em Selenium webdrive, com Java e Cucumber, usando Page objects.
+## Objetivo:
+### Criar um projeto em Selenium webdrive, com Java e Cucumber, usando Page objects.
 <br>
 <br>
 
@@ -16,4 +16,16 @@
     E devo preencher o formulario da aba Select Price Option e clicar em next<br>
     E devo preencher o formulario da aba Send Quote e clicar em next<br>
     Entao devo ver a mensagem "Sending e-mail success!"<br>
+    
+    
+##Tecnologias utilizadas :heart_eyes: <br>
+- [x] Java
+Linguagem de programação para desenvolvimento da aplicação.<br>
+- [x] Selenium
+Framework responsável por fazer a integração do código java com a linguagem Gherkin(Cucumber) abrindo o browser fazendo o teste de comportamento.<br>
+- [x] Cucumber
+Framework responsável por traduzir uma linguagem humana em código Java.<br>
+- [x] Maven
+Gerenciador de dependências para o Java.
+
 
