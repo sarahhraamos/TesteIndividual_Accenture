@@ -1,10 +1,10 @@
-# Teste individual Accenture </br>
+# Teste individual Accenture :zap: </br>
 ## Objetivo<br>
 Criar um projeto em Selenium webdrive, com Java e Cucumber, usando Page objects.
 <br>
 <br>
 
-## Caso de Teste :white_circle: <br>
+## Caso de Teste :red_circle: <br>
  Acessar o site da SamppleApp e preencher todo o formulário.<br>
 
 <b>Cenario:</b> Ver a mensagem de sucesso depois de preencher todos os formulários.<br>
