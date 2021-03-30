@@ -1,7 +1,7 @@
 ## Objetivo do teste
 </br>
 
-# Criar um projeto em Selenium webdrive, com Java e Cucumber, usando Page objects.
+Criar um projeto em Selenium webdrive, com Java e Cucumber, usando Page objects.
 <br>
 <br>
 
