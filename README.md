@@ -44,12 +44,21 @@ Criar um projeto em Selenium webdrive, com Java e Cucumber, usando Page objects.
 - Entrando na pasta do projeto<br>
 `` cd TesteIndividual_Accenture ``
 - Fazer o download do [Chrome Webdriver](https://chromedriver.chromium.org/downloads) e colocar o arquivo descompactado dentro da pasta driver na raiz do projeto:<br>
-Exemplo:<br>
+<b>Exemplo:</b><br>
 ``cd driver``<br>
 ``curl https://chromedriver.storage.googleapis.com/89.0.4389.23/chromedriver_linux64.zip``<br>
 ``unzip chromedriver_linux64.zip``<br>
 ``rm -rf chromedriver_linux64.zip``<br>
 ``cd ../driver``<br>
+- Limpando e validando maven Unix<br>
+``./mvnw clean``<br>
+- Limpando e validando maven Windows<br>
+``mvnw.cmd clean``<br>
+- Executando teste no Unix<br>
+``./test.sh``<br>
+- Executando teste no Windows<br>
+``test.bat``<br
+
 
 
 
