@@ -26,6 +26,6 @@ Framework responsável por fazer a integração do código java com a linguagem 
 - [x] Cucumber
 Framework responsável por traduzir uma linguagem humana em código Java.<br>
 - [x] Maven
-Gerenciador de dependências para o Java.
+Gerenciador de dependências para o Java.<br>
 
 
