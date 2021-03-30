@@ -62,6 +62,8 @@
 <br>
 <br>
 
+## Estrutura de arquivos
+
 ```
 driver 
 
@@ -83,11 +85,15 @@ driver
 
     |  |  |  |-- cucumber
 
-    |  |  |  |  |-- danilo
+    |  |  |  |  |-- sarah
+    
+    |  |  |  |  |-- services
+    
+    |  |  |  |  |-- Configuracao.java -- Classe onde fica toda a configuraçao do browser com selenium.
 
     |  |  |  |  |  |-- RunCucumberTest.java -- Arquivo que configura a inicialização do Java test 
  
-    |  |  |  |  |  |-- ValidarCpfStep.java -- Passos escritos em java com selenium abrindo o browser e testando a aplicação
+    |  |  |  |  |  |-- CasodeTeste.java -- Passos escritos em java com selenium abrindo o browser e testando a aplicação
 
     |  |-- resources
 
@@ -95,9 +101,9 @@ driver
 
     |  |  |  |-- cucumber
 
-    |  |  |  |  |-- danilo
+    |  |  |  |  |-- sarah
 
-    |  |  |  |  |  |-- validadorCpf.feature -- Gherkin com os cenários de teste de acordo com o meu cliente
+    |  |  |  |  |  |-- CasodeTeste.feature -- Gherkin com os cenários de teste de acordo com o meu cliente
 
   test.bat -- Arquivo para rodar teste no Windows
 
