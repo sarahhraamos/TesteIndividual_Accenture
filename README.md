@@ -93,7 +93,7 @@ driver
 
     |  |  |  |  |  |-- RunCucumberTest.java -- Arquivo que configura a inicialização do Java test 
  
-    |  |  |  |  |  |-- CasodeTeste.java -- Passos escritos em java com selenium abrindo o browser e testando a aplicação
+    |  |  |  |  |  |-- CasodeTesteSteps.java -- Passos escritos em java com selenium abrindo o browser e testando a aplicação
 
     |  |-- resources
 
