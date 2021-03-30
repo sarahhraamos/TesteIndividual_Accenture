@@ -57,7 +57,7 @@ Criar um projeto em Selenium webdrive, com Java e Cucumber, usando Page objects.
 - Executando teste no Unix<br>
 ``./test.sh``<br>
 - Executando teste no Windows<br>
-``test.bat``<br
+``test.bat``<br>
 
 
 
