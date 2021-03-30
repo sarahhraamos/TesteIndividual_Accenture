@@ -27,7 +27,7 @@ Criar um projeto em Selenium webdrive, com Java e Cucumber, usando Page objects.
  :white_check_mark: <b>Cucumber</b><br>
 > Framework responsável por traduzir uma linguagem humana em código Java.<br>
 
-:white_check_mark: <b>Maven<;b><br>
+:white_check_mark: <b>Maven</b><br>
 > Gerenciador de dependências para o Java.<br>
 
 
