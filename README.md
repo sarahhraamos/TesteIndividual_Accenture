@@ -18,13 +18,13 @@ Criar um projeto em Selenium webdrive, com Java e Cucumber, usando Page objects.
     
     
 ## Tecnologias utilizadas :heart_eyes: <br>
-- [x] Java
+- :white_check_mark: Java
 Linguagem de programação para desenvolvimento da aplicação.<br>
-- [x] Selenium
+- :white_check_mark: Selenium
 Framework responsável por fazer a integração do código java com a linguagem Gherkin(Cucumber) abrindo o browser fazendo o teste de comportamento.<br>
-- [x] Cucumber
+- :white_check_mark: Cucumber
 Framework responsável por traduzir uma linguagem humana em código Java.<br>
-- [x] Maven
+- :white_check_mark: Maven
 Gerenciador de dependências para o Java.<br>
 
 
