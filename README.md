@@ -1,10 +1,10 @@
-##Objetivo do teste<br>
+## Objetivo do teste<br>
 
-#Criar um projeto em Selenium webdrive, com Java e Cucumber, usando Page objects.
+# Criar um projeto em Selenium webdrive, com Java e Cucumber, usando Page objects.
 <br>
 <br>
 
-#Caso de Teste<br>
+# Caso de Teste <br>
  Acessar o site da SamppleApp e preencher todo o formulário.<br>
 
 <b>Cenario:</b> Ver a mensagem de sucesso depois de preencher todos os formulários.<br>
