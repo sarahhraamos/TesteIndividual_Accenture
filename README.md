@@ -61,13 +61,17 @@
 <br>
 <br>
 <br>
+
 ```
 driver 
 
       |-- chromedriver -- Este é o arquivo do selenium webdriver, substitua este arquivo com a versão da sua máquina
-|--mvnw
-|--mvnw.cmd
-|--pom.xml
+
+  mvnw
+
+  mvnw.cmd
+
+  pom.xml
 
   src
 
@@ -79,12 +83,11 @@ driver
 
     |  |  |  |-- cucumber
 
-    |  |  |  |  |-- sarah
-    |  |  |  |  |  |--services 
-    |  |  |  |  |  |  |  |-- Configuracao.java -- Arquivo onde fica a configuração dos métodos do selenium e do browser. 
-    
+    |  |  |  |  |-- danilo
+
     |  |  |  |  |  |-- RunCucumberTest.java -- Arquivo que configura a inicialização do Java test 
-    |  |  |  |  |  |-- CasodeTesteSteps.java -- Passos escritos em java com selenium abrindo o browser e testando a aplicação
+ 
+    |  |  |  |  |  |-- ValidarCpfStep.java -- Passos escritos em java com selenium abrindo o browser e testando a aplicação
 
     |  |-- resources
 
@@ -92,9 +95,9 @@ driver
 
     |  |  |  |-- cucumber
 
-    |  |  |  |  |-- sarah
+    |  |  |  |  |-- danilo
 
-    |  |  |  |  |  |-- CasodeTeste.feature -- Gherkin com os cenários de teste de acordo com o meu cliente
+    |  |  |  |  |  |-- validadorCpf.feature -- Gherkin com os cenários de teste de acordo com o meu cliente
 
   test.bat -- Arquivo para rodar teste no Windows
 
