@@ -1,5 +1,5 @@
 # Teste individual Accenture :zap: </br>
-<b> Objetivo:</b>Criar um projeto em Selenium Webdrive, com Java e Cucumber, usando Page objects.
+<b> Objetivo:</b> Criar um projeto em Selenium Webdrive, com Java e Cucumber, usando Page objects.
 <br>
 <br>
 
