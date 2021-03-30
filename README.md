@@ -1,7 +1,7 @@
 # Teste individual Accenture
 </br>
 ## Objetivo:
-### Criar um projeto em Selenium webdrive, com Java e Cucumber, usando Page objects.
+## Criar um projeto em Selenium webdrive, com Java e Cucumber, usando Page objects.
 <br>
 <br>
 
@@ -18,7 +18,7 @@
     Entao devo ver a mensagem "Sending e-mail success!"<br>
     
     
-##Tecnologias utilizadas :heart_eyes: <br>
+## Tecnologias utilizadas :heart_eyes: <br>
 - [x] Java
 Linguagem de programação para desenvolvimento da aplicação.<br>
 - [x] Selenium
