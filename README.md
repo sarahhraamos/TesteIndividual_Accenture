@@ -36,8 +36,8 @@ Criar um projeto em Selenium webdrive, com Java e Cucumber, usando Page objects.
 
 ## Como utilizar :computer:<br>
 
-- Instalar o [Java] (https://www.java.com/pt-BR/download/ie_manual.jsp?locale=pt_BR)
-- Instalar [JDK] (https://www.oracle.com/br/java/technologies/javase/javase-jdk8-downloads.html)
+- Instalar o [Java](https://www.java.com/pt-BR/download/ie_manual.jsp?locale=pt_BR)
+- Instalar [JDK](https://www.oracle.com/br/java/technologies/javase/javase-jdk8-downloads.html)
 - Verificar se o JAVA_HOME está configurado em seu computador.
 - Clone do projeto.<br>
 `` git clone https://github.com/sarahhraamos/TesteIndividual_Accenture.git ``
