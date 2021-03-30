@@ -61,6 +61,7 @@
 <br>
 <br>
 <br>
+```
 driver 
 
       |-- chromedriver -- Este é o arquivo do selenium webdriver, substitua este arquivo com a versão da sua máquina
@@ -98,11 +99,11 @@ driver
 
     |  |  |  |  |  |-- CasodeTeste.feature -- Gherkin com os cenários de teste de acordo com o meu cliente
 
-  test.bat -- Arquivo para rodar teste no Windows<br>
+  test.bat -- Arquivo para rodar teste no Windows
 
-  test.sh -- Arquivo para rodar teste no Unix<br>
+  test.sh -- Arquivo para rodar teste no Unix
 
-
+```
 
 
 
