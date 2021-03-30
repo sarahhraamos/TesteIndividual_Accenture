@@ -15,8 +15,8 @@ Criar um projeto em Selenium webdrive, com Java e Cucumber, usando Page objects.
     E devo preencher o formulario da aba Select Price Option e clicar em next<br>
     E devo preencher o formulario da aba Send Quote e clicar em next<br>
     Entao devo ver a mensagem "Sending e-mail success!"<br>
-    
-    
+ <br>  
+ <br>   
 ## Tecnologias utilizadas :heart_eyes: <br>
  :white_check_mark: <b>Java</b><br>
 > Linguagem de programação para desenvolvimento da aplicação.<br>
