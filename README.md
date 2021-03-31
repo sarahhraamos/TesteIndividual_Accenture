@@ -118,6 +118,6 @@ driver
 ## Observações finais:<br>
 
 <b> Qual foi minha maior dificuldade nesse desafio? </b><br>
- Minha maior dificuldade, foi decidir se iria separar em cenários ou features diferentes, nesse caso de teste. Mas achei melhor deixar tudo no mesmo cenário, pois todos seriam com o mesmo objetivo, de validar os formulários, por isso optei em deixar dessa forma. 
+ Minha maior dificuldade foi decidir, se iria separar em cenários ou features diferentes, nesse caso de teste. Mas achei melhor deixar tudo no mesmo cenário, pois todos seriam com o mesmo objetivo, de validar os formulários, por isso optei em deixar dessa forma. 
 
 
