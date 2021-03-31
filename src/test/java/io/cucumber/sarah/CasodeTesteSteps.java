@@ -10,12 +10,12 @@ public class CasodeTesteSteps {
 
 
     @Dado("que estou no site da sampleapp")
-    public void que_estou_no_site_da_sampleapp() {
+    public void entrarNosite() {
         Configuracao.abrir("http://sampleapp.tricentis.com/101/app.php");
     }
 
     @Dado("devo preencher o formulario da aba Enter Vehicle Data e clicar em next")
-    public void devo_preencher_o_formulario_da_aba_Enter_Vehicle_Data_e_clicar_em_next() {
+    public void formulario_EnterVehicleData() {
         
         Configuracao.seletorQueryXpath("//*[@id='make']").click();
         Configuracao.seletorQueryXpath("//*[@id='make']/option[3]").click();
@@ -42,7 +42,7 @@ public class CasodeTesteSteps {
 
 
     @Dado("devo preencher o formulario da aba Enter Insurant Data e clicar em next")
-    public void devo_preencher_o_formulario_da_aba_Enter_Insurant_Data_e_clicar_em_next() {
+    public void formulario_EnterInsurantData() {
 
         Configuracao.seletorQueryCss("input#firstname").sendKeys("joao");
         Configuracao.seletorQueryCss("input#lastname").sendKeys("silva");
@@ -62,7 +62,7 @@ public class CasodeTesteSteps {
     }
 
     @Dado("devo preencher o formulario da aba Enter Product Data e clicar em next")
-    public void devo_preencher_o_formulario_da_aba_Enter_Product_Data_e_clicar_em_next() {
+    public void formulario_EnterProductData() {
 
         Configuracao.seletorQueryCss("input#startdate").sendKeys("02/01/2022");
         Configuracao.seletorQueryCss("select#insurancesum").click(); 
@@ -79,7 +79,7 @@ public class CasodeTesteSteps {
     }
 
     @Dado("devo preencher o formulario da aba Select Price Option e clicar em next")
-    public void devo_preencher_o_formulario_da_aba_Select_Price_Option_e_clicar_em_next() throws InterruptedException {
+    public void formulario_SelectPriceOption() throws InterruptedException {
         Configuracao.seletorQueryXpath("//*[@id='priceTable']/tfoot/tr/th[2]/label[4]/span").click();
         Configuracao.scroll();
         Thread.sleep(2000);
@@ -87,7 +87,7 @@ public class CasodeTesteSteps {
     }
 
     @Dado("devo preencher o formulario da aba Send Quote e clicar em next")
-    public void devo_preencher_o_formulario_da_aba_Send_Quote_e_clicar_em_next() {
+    public void formulario_SendQuote() {
         Configuracao.seletorQueryCss("input#email").sendKeys("teste@hotmail.com");
         Configuracao.seletorQueryCss("input#phone").sendKeys("021986574");
         Configuracao.seletorQueryCss("input#username").sendKeys("teste");
@@ -100,7 +100,7 @@ public class CasodeTesteSteps {
 
 
     @Entao("devo ver a mensagem {string}")
-    public void devo_ver_a_mensagem(String string) throws InterruptedException {
+    public void MensagemFinal(String string) throws InterruptedException {
         Thread.sleep(10000);
         Configuracao.seletorQueryCss("h2").getText();
         String mensagem = Configuracao.seletorQueryCss("h2").getText();

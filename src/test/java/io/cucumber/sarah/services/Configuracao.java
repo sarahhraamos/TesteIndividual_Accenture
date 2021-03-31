@@ -1,13 +1,10 @@
 package io.cucumber.sarah.services;
 
-import java.util.List;
 import org.openqa.selenium.JavascriptExecutor;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-
 
 
 public class Configuracao {
@@ -40,15 +37,10 @@ public class Configuracao {
         return  Configuracao.browser.findElement(By.cssSelector(seletor));
     }
     
-    public static List<WebElement> seletorQueryCssTodos(String seletor) {
-        return  Configuracao.browser.findElements(By.cssSelector(seletor));
-    }
-    
+
     public static WebElement seletorQueryXpath(String seletor) {
         return  Configuracao.browser.findElement(By.xpath(seletor));
     }
-
-    
 
     
 }    
