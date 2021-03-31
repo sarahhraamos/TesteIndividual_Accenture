@@ -1,7 +1,7 @@
 # Teste individual Accenture :zap: </br>
-## Objetivo<br>
-Criar um projeto em Selenium webdrive, com Java e Cucumber, usando Page objects.
+<b> Objetivo:</b> Criar um projeto em Selenium Webdrive, com Java e Cucumber, usando Page objects.
 <br>
+## Sarah Ramos
 <br>
 
 ## Caso de Teste :red_circle: <br>
@@ -59,6 +59,65 @@ Criar um projeto em Selenium webdrive, com Java e Cucumber, usando Page objects.
 - Executando teste no Windows<br>
 ``test.bat``<br>
 
+<br>
+<br>
+<br>
 
+## Estrutura de arquivos :palm_tree:
+
+```
+driver 
+
+      |-- chromedriver -- Este é o arquivo do selenium webdriver, substitua este arquivo com a versão da sua máquina
+
+  mvnw
+
+  mvnw.cmd
+
+  pom.xml
+
+  src
+
+    |-- test
+
+    |  |-- java
+
+    |  |  |-- io
+
+    |  |  |  |-- cucumber
+
+    |  |  |  |  |-- sarah
+    
+    |  |  |  |  |-- services
+    
+    |  |  |  |  |-- Configuracao.java -- Classe onde fica toda a configuraçao do browser com selenium.
+
+    |  |  |  |  |  |-- RunCucumberTest.java -- Arquivo que configura a inicialização do Java test 
+ 
+    |  |  |  |  |  |-- CasodeTesteSteps.java -- Passos escritos em java com selenium abrindo o browser e testando a aplicação
+
+    |  |-- resources
+
+    |  |  |-- io
+
+    |  |  |  |-- cucumber
+
+    |  |  |  |  |-- sarah
+
+    |  |  |  |  |  |-- CasodeTeste.feature -- Gherkin com os cenários de teste de acordo com o meu cliente
+
+  test.bat -- Arquivo para rodar teste no Windows
+
+  test.sh -- Arquivo para rodar teste no Unix
+
+```
+<br>
+<br>
+<br>
+
+## Observações finais:<br>
+
+<b> Qual foi minha maior dificuldade nesse desafio? </b><br>
+ Minha maior dificuldade, foi decidir se iria separar em cenários ou features diferentes, nesse caso de teste. Mas achei melhor deixar tudo no mesmo cenário, pois todos seriam com o mesmo objetivo, de validar os formulários, por isso optei em deixar dessa forma. 
 
 
