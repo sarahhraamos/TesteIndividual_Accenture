@@ -1,3 +1,6 @@
+![](https://img.shields.io/badge/cucumber-v.0.0.1-yellow.svg)
+![](https://img.shields.io/badge/selenium-v.3.141.59-green.svg)
+
 # Teste individual Accenture :zap: </br>
 <b> Objetivo:</b> Criar um projeto em Selenium Webdrive, com Java e Cucumber, usando Page objects.
 <br>
